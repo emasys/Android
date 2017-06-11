@@ -6,8 +6,8 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/soccer"
+    android:orientation="vertical"
     android:padding="16dp"
     tools:context="com.example.android.soccerscores.MainActivity">
 
@@ -23,36 +23,37 @@
             android:id="@+id/teamA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_alignParentLeft="true"
+            android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Team A"
-            android:textStyle="bold"
-            android:textColor="#fff"
             android:textAllCaps="true"
-            android:textSize="24sp" />
+            android:textColor="#fff"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!--<TextView-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1"-->
+        <!--android:padding="5dp"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:text="match facts"-->
+        <!--android:background="#f00"-->
+        <!--android:textSize="16sp" />-->
 
         <TextView
-            android:textColor="#fff"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_centerInParent="true"
-            android:text="match facts"
-            android:background="#f00"
-            android:textSize="16sp" />
-
-        <TextView
-            android:textColor="#fff"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_alignParentRight="true"
+            android:layout_weight="1"
             android:gravity="center_horizontal"
             android:text="Team B"
-            android:textStyle="bold"
             android:textAllCaps="true"
-            android:textSize="24dp" />
+            android:textColor="#fff"
+            android:textSize="24dp"
+            android:textStyle="bold" />
 
 
     </RelativeLayout>
@@ -60,8 +61,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
         android:weightSum="1">
 
         <RelativeLayout
@@ -87,9 +88,9 @@
                         android:layout_width="40dp"
                         android:layout_height="85dp"
                         android:layout_margin="0dp"
-                        android:textColor="#fff"
                         android:onClick="increment"
-                        android:text="+" />
+                        android:text="+"
+                        android:textColor="#fff" />
 
                 </LinearLayout>
 
@@ -99,8 +100,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="0"
-                    android:textStyle="bold"
-                    android:textSize="64sp" />
+                    android:textSize="64sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -116,8 +117,8 @@
                     android:paddingTop="24dp"
                     android:text="goals"
                     android:textAllCaps="true"
-                    android:textStyle="bold"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -134,8 +135,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:text="0"
-                    android:textStyle="bold"
-                    android:textSize="64dp" />
+                    android:textSize="64dp"
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -144,11 +145,11 @@
 
                     <Button
                         android:id="@+id/goal_B"
-                        android:onClick="increment"
                         android:layout_width="40dp"
                         android:layout_height="85dp"
-                        android:textColor="#fff"
-                        android:text="+" />
+                        android:onClick="increment"
+                        android:text="+"
+                        android:textColor="#fff" />
 
                 </LinearLayout>
 
@@ -163,8 +164,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
         android:weightSum="1">
 
         <RelativeLayout
@@ -189,8 +190,8 @@
                         android:layout_width="40dp"
                         android:layout_height="85dp"
                         android:layout_margin="0dp"
-                        android:text="+"
                         android:onClick="increment"
+                        android:text="+"
                         android:textColor="#fff" />
 
                 </LinearLayout>
@@ -218,9 +219,9 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="24dp"
                     android:text="Fouls"
-                    android:textStyle="bold"
                     android:textAllCaps="true"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
@@ -247,11 +248,11 @@
 
                     <Button
                         android:id="@+id/foul_B"
-                        android:onClick="increment"
                         android:layout_width="40dp"
                         android:layout_height="85dp"
-                        android:textColor="#fff"
-                        android:text="+" />
+                        android:onClick="increment"
+                        android:text="+"
+                        android:textColor="#fff" />
 
                 </LinearLayout>
 
@@ -265,8 +266,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
         android:weightSum="1">
 
         <RelativeLayout
@@ -288,12 +289,12 @@
 
                     <Button
                         android:id="@+id/red_card_A"
-                        android:textColor="#fff"
-                        android:onClick="increment"
                         android:layout_width="40dp"
                         android:layout_height="85dp"
                         android:layout_margin="0dp"
-                        android:text="+" />
+                        android:onClick="increment"
+                        android:text="+"
+                        android:textColor="#fff" />
 
                 </LinearLayout>
 
@@ -347,10 +348,10 @@
                     <Button
                         android:id="@+id/red_card_B"
                         android:layout_width="40dp"
-                        android:textColor="#fff"
-                        android:onClick="increment"
                         android:layout_height="85dp"
-                        android:text="+" />
+                        android:onClick="increment"
+                        android:text="+"
+                        android:textColor="#fff" />
 
                 </LinearLayout>
 
@@ -364,8 +365,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
         android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
         android:weightSum="1">
 
         <RelativeLayout
@@ -387,12 +388,12 @@
 
                     <Button
                         android:id="@+id/yellow_card_A"
-                        android:textColor="#fff"
                         android:layout_width="40dp"
-                        android:onClick="increment"
                         android:layout_height="85dp"
                         android:layout_margin="0dp"
-                        android:text="+" />
+                        android:onClick="increment"
+                        android:text="+"
+                        android:textColor="#fff" />
 
                 </LinearLayout>
 
@@ -447,11 +448,11 @@
 
                     <Button
                         android:id="@+id/yellow_card_B"
-                        android:textColor="#fff"
                         android:layout_width="40dp"
-                        android:onClick="increment"
                         android:layout_height="85dp"
-                        android:text="+" />
+                        android:onClick="increment"
+                        android:text="+"
+                        android:textColor="#fff" />
 
                 </LinearLayout>
 
@@ -475,13 +476,13 @@
 
             <Button
                 android:id="@+id/reset"
-                android:onClick="increment"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="reset"
-                android:textColor="#fff"
                 android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:onClick="increment"
+                android:text="reset"
+                android:textColor="#fff" />
         </RelativeLayout>
     </LinearLayout>
 
