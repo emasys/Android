@@ -61,19 +61,19 @@ public class MainActivity extends AppCompatActivity {
 
         switch (score) {
             case 0:
-                message = "Hello " + getName() + ",\nThank you for your time\nHere is your score: " + score + "/100\nYou can certainly do better";
+                message = "Hey " + getName() + ",\nThank you for your time\nHere is your score: " + score + "/100\nYou can certainly do better";
                 break;
             case 25:
-                message = "Hello " + getName() + ",\nYou did well! \nHere is your score: " + score + "/100\nbut you can do better";
+                message = "Hey " + getName() + ",\nYou did well! \nYou scored: " + score + "/100\nbut you can do better";
                 break;
             case 50:
-                message = "Hello " + getName() + ",\nWow! You are half way there\nHere is your score: " + score + "/100\nPut a little more effort";
+                message = "Hey " + getName() + ",\nWow! You are half way there\nyou scored: " + score + "/100\nPut a little more effort";
                 break;
             case 75:
-                message = "Hello " + getName() + ",\nRockstar! \nHere is your score: " + score + "/100\nYou missed just one answer";
+                message = "Hey " + getName() + ",\nRockstar! \nHere is your score: " + score + "/100\nYou missed just one answer";
                 break;
             case 100:
-                message = "Hello " + getName() + ",\nCongratulation!\nHere is your score: " + score + "/100\nYou are a genius ";
+                message = "Hey " + getName() + ",\nYay! Congratulations!\nyou got: " + score + "/100\nYou are a genius ";
                 break;
 
         }
