@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.android.quizapp.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="IQ QUIZ APP"
+                android:textSize="40sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="67dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/header"
+                app:srcCompat="@drawable/iq" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/question_1" />
+
+            <RadioGroup
+                android:id="@+id/Q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/question1">
+
+                <RadioButton
+                    android:id="@+id/A_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="100" />
+
+
+                <RadioButton
+                    android:id="@+id/B_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="132" />
+
+
+                <RadioButton
+                    android:id="@+id/C_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="145" />
+
+
+                <RadioButton
+                    android:id="@+id/D_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="144" />
+
+            </RadioGroup>
+
+            <!--answer = b-->
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/Q1"
+                android:layout_marginTop="16dp"
+                android:text="@string/question_2" />
+
+            <RadioGroup
+                android:id="@+id/Q2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question2">
+
+                <RadioButton
+                    android:id="@+id/A_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Sunday" />
+
+
+                <RadioButton
+                    android:id="@+id/B_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Monday" />
+
+
+                <RadioButton
+                    android:id="@+id/C_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wednesday" />
+
+
+                <RadioButton
+                    android:id="@+id/D_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="none of the above" />
+
+            </RadioGroup>
+
+
+            <!--answer = A-->
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/Q2"
+                android:layout_marginTop="16dp"
+                android:text="@string/question_3" />
+
+            <RadioGroup
+                android:id="@+id/Q3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question3">
+
+                <RadioButton
+                    android:id="@+id/A_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Voice" />
+
+
+                <RadioButton
+                    android:id="@+id/B_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bald" />
+
+
+                <RadioButton
+                    android:id="@+id/C_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="bloat" />
+
+
+                <RadioButton
+                    android:id="@+id/D_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="castle" />
+
+
+            </RadioGroup>
+
+
+            <!--answer = c-->
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/Q3"
+                android:layout_marginTop="16dp"
+                android:text="@string/question_4" />
+
+
+            <RadioGroup
+                android:id="@+id/Q4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question4">
+
+                <RadioButton
+                    android:id="@+id/A_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+
+                    android:text="plant" />
+
+
+                <RadioButton
+                    android:id="@+id/B_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="leaf" />
+
+
+                <RadioButton
+                    android:id="@+id/C_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="branch" />
+
+
+                <RadioButton
+                    android:id="@+id/D_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="mangrove" />
+
+
+            </RadioGroup>
+
+
+            <!--answer = B-->
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Q4"
+                android:layout_marginTop="16dp"
+                android:text="Full Name" />
+
+            <EditText
+                android:id="@+id/fullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Q4"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@id/name"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <CheckBox
+                android:id="@+id/showResult"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/fullName"
+                android:text="See your result here" />
+
+            <CheckBox
+                android:id="@+id/sendMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/showResult"
+                android:layout_marginBottom="8dp"
+                android:text="Send result to my email" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/sendMail"
+                android:layout_centerHorizontal="true"
+                android:onClick="submit"
+                android:text="submit" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/submit"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="16dp"
+                android:background="#c000"
+                android:padding="8dp"
+                android:text="@string/result"
+                android:textColor="#fff"
+
+                android:textSize="16sp"
+                android:typeface="monospace" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question_1">
+        1. At a conference, 12 members shook hands with each other before &amp; after the meeting. How many total number of hand shakes occurred?
+    </string>
+    <string name="question_2">
+        2. The day after the day after tomorrow is four days before Monday. What day is it today?
+    </string>
+    <string name="question_3">
+        3. 6121135 is to flame as 21215120 is to ?
+    </string>
+    <string name="question_4">
+        4. Forest is to tree as tree is to ?
+    </string>
+    <string name="result">
+        Result will automatically display here if you wish
+    </string>
+</resources>
