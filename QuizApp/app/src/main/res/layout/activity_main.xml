@@ -300,21 +300,20 @@
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
-
-                    android:layout_marginBottom="8dp"
+                    android:layout_alignParentTop="true"
                 android:text="Full Name" />
 
             <EditText
                 android:id="@+id/fullName"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@id/name"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:text="" />
+                android:text=""
+                android:layout_below="@+id/name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
             <CheckBox
                 android:id="@+id/showResult"

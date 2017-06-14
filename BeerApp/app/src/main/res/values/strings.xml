@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BeerApp</string>
+    <string-array name="entries">
+        <item>Gulder</item>
+        <item>Star</item>
+        <item>Guiness</item>
+        <item>Goldberg</item>
+    </string-array>
+    <string name="beer_type">
+        Get Beer!
+    </string>
+</resources>

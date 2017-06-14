@@ -136,32 +136,32 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private String getAnswer_Q1() {
-        RadioGroup q = (RadioGroup) findViewById(R.id.Q1);
-        int selected = q.getCheckedRadioButtonId();
-        RadioButton b = (RadioButton) findViewById(selected);
-        return b.getText().toString();
+        RadioGroup question = (RadioGroup) findViewById(R.id.Q1);
+        int selected = question.getCheckedRadioButtonId();
+        RadioButton answer = (RadioButton) findViewById(selected);
+        return answer.getText().toString();
 
     }
 
     private String getAnswer_Q2() {
-        RadioGroup q = (RadioGroup) findViewById(R.id.Q2);
-        int selected = q.getCheckedRadioButtonId();
-        RadioButton b = (RadioButton) findViewById(selected);
-        return b.getText().toString();
+        RadioGroup question = (RadioGroup) findViewById(R.id.Q2);
+        int selected = question.getCheckedRadioButtonId();
+        RadioButton answer = (RadioButton) findViewById(selected);
+        return answer.getText().toString();
     }
 
     private String getAnswer_Q3() {
-        RadioGroup q = (RadioGroup) findViewById(R.id.Q3);
-        int selected = q.getCheckedRadioButtonId();
-        RadioButton b = (RadioButton) findViewById(selected);
-        return b.getText().toString();
+        RadioGroup question = (RadioGroup) findViewById(R.id.Q3);
+        int selected = question.getCheckedRadioButtonId();
+        RadioButton answer = (RadioButton) findViewById(selected);
+        return answer.getText().toString();
     }
 
     private String getAnswer_Q4() {
-        RadioGroup q = (RadioGroup) findViewById(R.id.Q4);
-        int selected = q.getCheckedRadioButtonId();
-        RadioButton b = (RadioButton) findViewById(selected);
-        return b.getText().toString();
+        RadioGroup question = (RadioGroup) findViewById(R.id.Q4);
+        int selected = question.getCheckedRadioButtonId();
+        RadioButton answer = (RadioButton) findViewById(selected);
+        return answer.getText().toString();
     }
 
     private void displayResult(String result) {
