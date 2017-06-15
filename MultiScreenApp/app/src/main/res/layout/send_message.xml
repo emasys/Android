@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context="com.example.android.multiscreenapp.SendActivity">
 
     <Button
@@ -20,12 +21,12 @@
         android:layout_marginTop="28dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text=""
         tools:layout_editor_absoluteY="84dp"
         tools:layout_editor_absoluteX="104dp"
         android:layout_marginStart="71dp"

@@ -11,9 +11,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        if(savedInstanceState != null){
+            foulA = savedInstanceState.getInt("foulA");
+        }
+        displayFoulA(foulA);
     }
 
-    int scoreTeamB, scoreTeamA, yellowCardA, yellowCardB, redCardA, redCardB, foulA, foulB = 0;
+    int scoreTeamB, scoreTeamA, yellowCardA, yellowCardB, redCardA, redCardB, foulA, foulB;
 
 
 
@@ -61,6 +67,16 @@ public class MainActivity extends AppCompatActivity {
                 yellowCardB = 0;
                 redCardA = 0;
                 redCardB = 0;
+                displayScoreA(scoreTeamA);
+                displayScoreB(scoreTeamB);
+                displayFoulA(foulA);
+                displayFoulB(foulB);
+                displayYellowCardA(yellowCardA);
+                displayYellowCardB(yellowCardB);
+                displayRedCardA(redCardA);
+                displayRedCardB(redCardB);
+                break;
+            default:
                 displayScoreA(scoreTeamA);
                 displayScoreB(scoreTeamB);
                 displayFoulA(foulA);
@@ -143,4 +159,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState){
+//        savedInstanceState.putInt(displayFoulA(foulA), "a");
+        savedInstanceState.putInt("foulA", foulA);
+
+    }
 }
