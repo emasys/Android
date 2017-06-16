@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FunctionalcoffeeShop</string>
+    <string name="discription">the logo</string>
+    <string-array name="options">
+        <item>Drink</item>
+        <item>Food</item>
+        <item>Stores</item>
+    </string-array>
+</resources>
