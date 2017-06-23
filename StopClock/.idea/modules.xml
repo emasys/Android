@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StopClock.iml" filepath="$PROJECT_DIR$/StopClock.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/effectiveNavigation/effectiveNavigation.iml" filepath="$PROJECT_DIR$/effectiveNavigation/effectiveNavigation.iml" />
     </modules>
   </component>
 </project>
