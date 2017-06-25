@@ -27,19 +27,23 @@
 
                 >
 
+
+
                 <TextView
                     android:id="@+id/header"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
+
                     android:text="IQ QUIZ APP"
                     android:textSize="40sp" />
 
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="67dp"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
                     android:layout_height="50dp"
                     android:layout_toRightOf="@id/header"
                     app:srcCompat="@drawable/iq" />
@@ -331,31 +335,56 @@
                 android:layout_marginBottom="8dp"
                 android:text="Send result to my email" />
 
-            <Button
-                android:id="@+id/submit"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/sendMail"
-                android:layout_centerHorizontal="true"
-                android:onClick="submit"
-                android:text="submit"
-                android:textColor="#fff" />
+                <TextView
+                    android:id="@+id/result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/sendMail"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="#263238"
+                    android:padding="8dp"
+                    android:text="@string/result"
+                    android:textColor="#fff"
+                    android:textSize="16sp"
+                    android:typeface="monospace" />
 
-            <TextView
-                android:id="@+id/result"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_below="@id/submit"
-                android:layout_centerHorizontal="true"
-                android:layout_margin="16dp"
-                android:layout_marginBottom="8dp"
-                android:background="#263238"
-                android:padding="8dp"
-                android:text="@string/result"
-                android:textColor="#fff"
-                android:textSize="16sp"
-                android:typeface="monospace" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_below="@id/result"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/submit"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/result"
+                        android:onClick="submit"
+                        android:text="submit"
+                        android:textColor="#fff" />
+
+                    <Button
+                        android:id="@+id/reset"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/submit"
+                        android:layout_below="@id/result"
+                        android:layout_centerHorizontal="true"
+                        android:onClick="reset"
+                        android:text="reset"
+                        android:textColor="#fff" />
+
+
+
+                </LinearLayout>
+
+
+
 
 
             </RelativeLayout>

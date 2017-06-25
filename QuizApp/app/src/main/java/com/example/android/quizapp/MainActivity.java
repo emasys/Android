@@ -61,18 +61,23 @@ public class MainActivity extends AppCompatActivity {
 
         switch (score) {
             case 0:
+                Toast.makeText(this, "your score is "+score, Toast.LENGTH_LONG).show();
                 message = "Hey " + getName() + ",\nThank you for your time\nHere is your score: " + score + "/100\nYou can certainly do better";
                 break;
             case 25:
+                Toast.makeText(this, "your score is "+score, Toast.LENGTH_LONG).show();
                 message = "Hey " + getName() + ",\nYou did well! \nYou scored: " + score + "/100\nbut you can do better";
                 break;
             case 50:
+                Toast.makeText(this, "your score is "+score, Toast.LENGTH_LONG).show();
                 message = "Hey " + getName() + ",\nWow! You are half way there\nyou scored: " + score + "/100\nPut a little more effort";
                 break;
             case 75:
+                Toast.makeText(this, "your score is "+score, Toast.LENGTH_LONG).show();
                 message = "Hey " + getName() + ",\nRockstar! \nHere is your score: " + score + "/100\nYou missed just one answer";
                 break;
             case 100:
+                Toast.makeText(this, "your score is "+score, Toast.LENGTH_LONG).show();
                 message = "Hey " + getName() + ",\nYay! Congratulations!\nyou got: " + score + "/100\nYou are a genius ";
                 break;
 
@@ -135,6 +140,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void reset(View view){
+        setName();
+        score = 0;
+        displayResult("Result will automatically display here if you wish");
+
+    }
+
     private String getAnswer_Q1() {
         RadioGroup question = (RadioGroup) findViewById(R.id.Q1);
         int selected = question.getCheckedRadioButtonId();
@@ -172,6 +184,12 @@ public class MainActivity extends AppCompatActivity {
     private String getName() {
         EditText getName = (EditText) findViewById(R.id.fullName);
         return getName.getText().toString();
+
+    }
+
+    private void setName(){
+        EditText getName = (EditText) findViewById(R.id.fullName);
+        getName.setText(" ");
 
     }
 
