@@ -49,6 +49,7 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
 
+
         <GridLayout
             android:layout_width="match_parent"
             android:layout_marginTop="16dp"
@@ -60,7 +61,7 @@
                 android:layout_columnWeight="1"
                 android:layout_width="0dp"
                 android:gravity="center"
-                android:background="?selectableItemBackground"
+                android:layout_marginBottom="16dp"
                 android:layout_height="wrap_content"
                 >
 
@@ -68,31 +69,28 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:clickable="true"
+                    android:drawSelectorOnTop="true"
+                    android:background="?selectableItemBackground"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView10"
-                        android:layout_weight="1"
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:paddingBottom="8dp"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="wrap_content"
-                        android:gravity="center"
-                        android:background="?selectableItemBackground"
-                        android:textColor="#fff"
-                        android:textStyle="bold"
-                        android:layout_height="0dp"
-                        android:text="TextView" />
+                        android:src="@drawable/info"/>
 
                     <TextView
-                        android:id="@+id/textView101"
+                        android:id="@+id/Information"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="1"
                         android:layout_width="wrap_content"
                         android:gravity="center"
-                        android:background="?selectableItemBackground"
                         android:textColor="#fff"
                         android:textStyle="bold"
                         android:layout_height="0dp"
-                        android:text="TextView" />
+                        android:text="Infomation" />
                 </LinearLayout>
 
 
@@ -103,8 +101,10 @@
                 android:layout_columnWeight="1"
                 android:layout_width="0dp"
                 android:gravity="center"
-                android:background="?selectableItemBackground"
-                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:drawSelectorOnTop="true"
+                android:background="?selectableItemBackground"                android:layout_height="wrap_content"
                 >
 
                 <LinearLayout
@@ -113,20 +113,15 @@
                     android:layout_weight="1"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/textView30"
-                        android:layout_weight="1"
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:paddingBottom="8dp"
                         android:layout_gravity="center_horizontal"
-                        android:layout_width="wrap_content"
-                        android:gravity="center"
-                        android:background="?selectableItemBackground"
-                        android:textColor="#fff"
-                        android:textStyle="bold"
-                        android:layout_height="0dp"
-                        android:text="TextView" />
+                        android:src="@drawable/tour"/>
 
                     <TextView
-                        android:id="@+id/textView201"
+                        android:id="@+id/attraction"
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="1"
                         android:layout_width="wrap_content"
@@ -135,7 +130,172 @@
                         android:textColor="#fff"
                         android:textStyle="bold"
                         android:layout_height="0dp"
-                        android:text="TextView" />
+                        android:text="Tourist Centers" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:drawSelectorOnTop="true"
+                android:background="?selectableItemBackground"                  android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="16dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/mapit"/>
+
+                    <TextView
+                        android:id="@+id/map"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:background="?selectableItemBackground"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:layout_height="0dp"
+                        android:text="Map" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:drawSelectorOnTop="true"
+                android:background="?selectableItemBackground"                  android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:background="?selectableItemBackground"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="16dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/night"/>
+
+                    <TextView
+                        android:id="@+id/nightClubs"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:background="?selectableItemBackground"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:layout_height="0dp"
+                        android:text="Night Clubs" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:drawSelectorOnTop="true"
+                android:background="?selectableItemBackground"                  android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="16dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/offmap"/>
+
+                    <TextView
+                        android:id="@+id/funParks"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:background="?selectableItemBackground"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:layout_height="0dp"
+                        android:text="Offline Map" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_columnWeight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_marginBottom="16dp"
+                android:clickable="true"
+                android:drawSelectorOnTop="true"
+                android:background="?selectableItemBackground"                  android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:paddingBottom="8dp"
+                        android:paddingTop="16dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/contact"/>
+
+                    <TextView
+                        android:id="@+id/contact"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:gravity="center"
+                        android:background="?selectableItemBackground"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:layout_height="0dp"
+                        android:text="Contact Us" />
                 </LinearLayout>
 
 
