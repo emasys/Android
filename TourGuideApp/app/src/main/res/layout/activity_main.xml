@@ -78,6 +78,7 @@
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:paddingBottom="8dp"
+                        android:onClick="getInfo"
                         android:layout_gravity="center_horizontal"
                         android:src="@drawable/info"/>
 
@@ -90,7 +91,7 @@
                         android:textColor="#fff"
                         android:textStyle="bold"
                         android:layout_height="0dp"
-                        android:text="Infomation" />
+                        android:text="Useful Information" />
                 </LinearLayout>
 
 

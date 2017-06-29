@@ -1,3 +1,68 @@
 <resources>
-    <string name="app_name">TourGuideApp</string>
+    <string name="app_name">Lagos Tour Guide</string>
+    <string name="about_lag">
+        Lagos (/ˈlɑːɡoʊs/ /ˈleɪɡɒs/ lay-gos), is the most populous city in Nigeria,
+        the second fastest-growing city in Africa and the seventh in the world. The population
+        of Lagos according to the Lagos State Government was 17.5 million, a number disputed by the
+        Nigerian Government and judged unreliable by the National Population Commission of Nigeria.
+        The latest reports estimate the population at 21 million, making Lagos the largest city in
+        Africa.\n\n
+        Lagos is a port which originated on islands separated by creeks, such as Lagos Island,
+        fringing the southwest mouth of Lagos Lagoon while protected from the Atlantic Ocean by
+        barrier islands and long sand spits such as Bar Beach, which stretch up to 100
+        kilometres (62 miles) east and west of the mouth.
+        \n\n
+
+
+Portuguese explorer Rui de Sequeira visited the area in 1472, naming the area around the city Lago
+        de Curamo; indeed the present name is Portuguese for “lakes”. Another explanation is that
+        Lagos was named for Lagos, Portugal—a maritime town which, at the time, was the main centre
+        of Portuguese expeditions down the African coast, and whose own name is derived from the
+        Latin word Lacobriga.\n\n
+
+    </string>
+
+    <string name="history">
+
+        Lagos was originally inhabited by the Awori subgroup of the Yoruba people. Under the
+        leadership of the Oloye Olofin, the Awori moved to an island now called Iddo and then to
+        the larger Lagos Island. In the 15th century, the Awori settlement was conquered by the
+        Benin Empire and the island became a Benin war-camp called “Eko” under Oba Orhogba, the
+        Oba of Benin at the time. The Yoruba still use the name Eko to refer to Lagos.\n\n
+Lagos, which means “lakes”, was a name given to the settlement by the Portuguese. The present-day
+        Lagos state has a high percentage of Awori, who migrated to the area from Isheri along the
+        Ogun river. Throughout history, it was home to a number of warring ethnic groups who had
+        settled in the area. Following its early settlement by the Awori nobility, and its conquest
+        by the Bini warlords of Benin, the state first came to the attention of the Portuguese in
+        the 15th century.\n\n
+    </string>
+
+    <string name="geography">
+        Most of the population lives on the mainland, and most industries are located there too.
+        Lagos is known for its music and night life, which used to be located in areas around Yaba
+        and Surulere. In recent years more night clubs have sprung up on the island, making the
+        island, particularly Victoria Island, the main nightlife attraction. These islands are
+        separated from the mainland by the main channel draining the lagoon into the Atlantic Ocean,
+        which forms Lagos Harbour. The islands are separated from each other by creeks of varying
+        sizes and are connected to Lagos Island by bridges. The smaller sections of some creeks
+        have been sand filled and built over.Lagos Mainland districts include Ebute-Meta, Surulere,
+        Yaba (location of the University of Lagos) and Ikeja, site of Murtala Muhammed
+        International Airport and capital of Lagos State.
+
+    </string>
+
+    <string name="climate">
+        In the Köppen climate classification system, Lagos has a tropical wet and dry climate
+        (Aw) that borders on a tropical monsoon climate (Am). Lagos experiences two rainy seasons,
+        with the heaviest rains falling from April to July and a weaker rainy season in October and
+        November. There is a brief relatively dry spell in August and September and a longer dry
+        season from December to March.
+
+        Monthly rainfall between May and July averages over 400 mm (16 in), while in August and
+        September it is down to 200 mm (7.9 in) and in December as low as 25 mm (0.98 in). The main
+        dry season is accompanied by harmattan winds from the Sahara Desert, which between December
+        and early February can be quite strong. The highest maximum temperature ever recorded in
+        Lagos was 37.3 °C (99.1 °F) and the minimum 13.9 °C (57.0 °F).
+    </string>
+
 </resources>
