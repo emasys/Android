@@ -52,13 +52,11 @@ public class information extends AppCompatActivity {
         final ArrayList<Word> word = new ArrayList<>();
 
         word.add(new Word("About Lagos"));
-        word.add(new Word("Language"));
-        word.add(new Word("Airport"));
-        word.add(new Word("Transport"));
+        word.add(new Word("Transportation"));
         word.add(new Word("Banks and Money"));
         word.add(new Word("Visas and Border Control"));
         word.add(new Word("Emergency Phone numbers"));
-        word.add(new Word("Tourist Information Offices"));
+//        word.add(new Word("Tourist Information Offices"));
 
 
 
@@ -80,9 +78,17 @@ public class information extends AppCompatActivity {
                         activityToStart = AboutLagos.class;
                         break;
                     case 1:
-                        activityToStart = language.class;
+                        activityToStart = Airport.class;
                         break;
-                    //etc.
+                    case 2:
+                        activityToStart = Banking.class;
+                        break;
+                    case 3:
+                        activityToStart = Visa.class;
+                        break;
+                    case 4:
+                        activityToStart = Emergency.class;
+                        break;
                 }
 
                 Intent i = new Intent(getApplicationContext(), activityToStart);

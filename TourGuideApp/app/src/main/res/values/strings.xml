@@ -14,12 +14,21 @@
         \n\n
 
 
-Portuguese explorer Rui de Sequeira visited the area in 1472, naming the area around the city Lago
+        Portuguese explorer Rui de Sequeira visited the area in 1472, naming the area around the city Lago
         de Curamo; indeed the present name is Portuguese for “lakes”. Another explanation is that
         Lagos was named for Lagos, Portugal—a maritime town which, at the time, was the main centre
         of Portuguese expeditions down the African coast, and whose own name is derived from the
         Latin word Lacobriga.\n\n
 
+
+
+    </string>
+
+    <string name="eko_language">
+        Although English is the Nigeria Official Language, almost 75 percent of the entire population
+        in Lagos speak and understand English or <b>pidgin English</b>. Majority speak Yoruba, almost 70 percent
+        speak or understand Yoruba Language. Around 30 percent can speak or understand Igbo Language.
+        Around 7 percent speak Hausa Language.
     </string>
 
     <string name="history">
@@ -64,5 +73,125 @@ Lagos, which means “lakes”, was a name given to the settlement by the Portug
         and early February can be quite strong. The highest maximum temperature ever recorded in
         Lagos was 37.3 °C (99.1 °F) and the minimum 13.9 °C (57.0 °F).
     </string>
+
+    <string name="brt_buses">
+        BRT is a transport option, which relies on the use of dedicated interference free segregated
+        lanes to guarantee fast and reliable bus travel. It is a high performance public transport
+        bus service which aims to combine bus lanes with high-quality bus stations, vehicles,
+        amenities and branding to achieve the performance and quality of a light rail or metro
+        system, with the flexibility, cost and simplicity of a bus system. The BRT buses run on
+        physically segregated lanes and thus make them faster in a situation where there is traffic
+        congestion. It is one of the several options available for tackling the huge public
+        transport predicaments of Lagos.
+        \n\n
+        <b>PRICING AND ROUTES</b>\n\n
+        <b>Routes: </b>Ikorodu- Mile 12- Ikeja – Maryland – Yaba – Surulere – Apapa – CMS – TBS
+\n\n
+        <b>Passenger Capacity/Bus: </b>80 (37 sitting/43 standing)\n\n
+        <b>Pricing: </b>Price ranges from 70 Naira to 300 Naira depending on where you are heading to.
+    </string>
+
+    <string name="ferry">
+        The Lagos State Ferry Services Corporation (LSFSC) or Lagos Ferry Services Company
+        (also known as LAGFERRY) is the major ferry services provider in Lagos State. Although
+        Lagos ferry services commenced operations in 1925, passenger ferries gradually
+        intensified until the 1970s which led to the establishment of Lagferry in
+        1983. Lagferry works in conjunction with Lagos State Waterways Authority (LASWA), National
+        Inland Waterways Authority (NIWA) and Nigeria Maritime Administration and Safety Agency
+        (NIMASA). Besides Lagferry, other private ferry operators also use modern ferry boats to
+        provide commercial transport services between Ikorodu, Lagos Island, Apapa and Victoria
+        Island.
+    </string>
+
+    <string name="banks">
+        Nigeria\'s currency is the Nigerian Naira (NGN), which is divided into 100 kobo.
+        The naira is available in the following denominations:\n\n
+        <b>Notes:</b> 1,000 NGN, 500 NGN, 200 NGN, 100 NGN, 50 NGN, 20 NGN, 10 NGN and 5 NGN.\n\n
+        <b>Coins:</b> 1 NGN, 2 NGN and 50 kobo.
+    </string>
+
+    <string name="banking">
+        The Central Bank of Nigeria (CBN) is the main bank in Nigeria and the institution that
+        regulates banking in the country. Other banks in Nigeria include, amongst others, Ecobank
+        Nigeria, Access Bank, Citibank, Standard Chartered Bank and Union Bank of Nigeria.\n\n
+        Banking systems in Nigeria, such as Internet banking, do exist and offer standard services,
+        but are often down, and during these times only one’s bank balance will be available.
+        Not to mention, personal information is not guaranteed to be safe, and the perception is
+        that the system itself is pretty unreliable and way behind the times.
+    </string>
+
+    <string name="atm">
+ATMs are available at some banks, but not all of them accept foreign cards. Most ATMs have a daily
+        withdrawal limit of around 150,000 NGN. ATM fraud is prevalent in Nigeria, so vigilance and
+        communication with the bank will be essential.\n\n
+
+<b>Credit cards</b>\n
+Nigeria is largely a cash-based society, so cash will still be necessary for many purchases.
+        More establishments are starting to accept debit/credit cards as standard forms of payment
+        for goods and services, but be sure to be extra wary when paying with a card, as fraud is a
+        major concern.\n\n
+        If using a credit card for any transactions, expats should carefully look at their bank statements
+        to ensure there has not been any credit card fraud. Expats should notify their bank before
+        moving to Nigeria and using their card, as many banks will automatically cancel a card after
+        just one Nigerian transaction.
+    </string>
+
+    <string name="operational_structure">
+        The Service has three (3) Directorates, Eight Zonal offices, Thirty-Six State Commands and
+        Federal Capital Territory and Immigration offices in the 774 local government areas.\n\n
+        <b>The three Directorates are:</b>\n\n
+        <b>Finance, Administration and Technical Services(FATS)</b>\n\n
+        The FATS directorate is statutorily charged with the responsibility of policy initiation,
+        formulation, articulation and implementation. It is equally responsible for the financial
+        management, recruitment, discipline, postings, deployments and promotion of officers and
+        men of the Service. Operations, Passport, Border Patrol, ECOWAS and African Affairs It is
+        responsible for the provision of various immigration facilities such as:\n\n
+        Visa\n
+        CERPAC\n
+        Passports\n\n
+        <b>Investigation, Inspectorate and Enforcement</b>\n\n
+        <b>Investigation and Aliens Control</b>
+    </string>
+
+    <string name="visa">
+        <b>Who qualifies</b> \n
+        - Persons wishing to visit Nigeria for the purpose of tourism\n
+        - Individuals who want to visit family members\n \n
+        <b>Requirements for the issuance of Tourist Visa / Entry Permit</b>\n\n
+        Valid passport with minimum of 6 months validity\n
+        Valid Visa to onward destination\n
+        Valid Airline return ticket\n
+        Evidence of funds\n
+        Evidence of Hotel reservation\n
+        Acceptance of IR (Immigration Responsibility)\n
+        Validity\n
+        - Not valid for employment
+    </string>
+
+    <string name="emergency">
+        In case of emergrncy of any sort, just call any of these numbers:\n\n
+        <b>Toll free Emergency dial</b> - 767 / 112 (Police, Ambulance, Emergencies etc)\n\n
+        <b>Fire Service</b> - 01 6584712, 7280500, 7280501, 7280502, 7280503\n\n
+        <b>LASAMBUS</b> - 01 6584713\n\n
+        <b>LASTMA</b> - 01 6584715\n\n
+        <b>KAI</b> - 01 6583684\n\n
+        <b>LASEMA</b> - 01 4187160, 4187161, 4187162\n\n
+        <b>Women Abuse Domestic Violence Helpline</b> - 01 7617508, 08085754226, 08102678443\n\n
+        <b>Child Abuse Helpline</b> - 08085753932, 08102678442 07098733732,
+        Email: protectachild@yahoo.com, protectachild@gmail.com\n\n
+        <b>AA Rescue (Vehicle Breakdown Assistance)</b> - 4614999, 08025551111/3333, 08035612222\n\n
+        <b>Flying Doctors (Air ambulances and medical crews)</b> - 0706 920 1299\n
+
+    </string>
+    <string name="title_activity_attraction">Attraction</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="events">Events</string>
+    <string name="club">Night Clubs</string>
+    <string name="historical">Others</string>
+
 
 </resources>
