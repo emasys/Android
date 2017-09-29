@@ -59,7 +59,5 @@ public class EventFragment extends Fragment {
 
 
 
-    /**
-     * Clean up the media player by releasing its resources.
-     */
+
 }
